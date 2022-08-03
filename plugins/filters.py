@@ -41,7 +41,7 @@ async def filter(client: Bot, message: Message):
         if filenames and links:
             for filename, link in zip(filenames, links):
                 btn.append(
-                    [InlineKeyboardButton(text=f"♻️ {filename}",url=f"{link}")]
+                    [InlineKeyboardButton(text=f"🎥 {filename}",url=f"{link}")]
             )
            
         else:
@@ -52,7 +52,7 @@ async def filter(client: Bot, message: Message):
 
         if len(btn) > 10: 
             btns = list(split_list(btn, 10)) 
-            keyword = f"♻️ {message.chat.id}-{message.message_id}"
+            keyword = f"🎥 {message.chat.id}-{message.message_id}"
             BUTTONS[keyword] = {
                 "total" : len(btns),
                 "buttons" : btns
@@ -60,16 +60,16 @@ async def filter(client: Bot, message: Message):
         else:
             buttons = btn
             buttons.append(
-                [InlineKeyboardButton(text="🔰 Pages 1/1 🔰",callback_data="pages")]
+                [InlineKeyboardButton(text="🏅 Pages 1/1 🏅",callback_data="pages")]
             )
             buttons.append(
-                [InlineKeyboardButton("❣️ VIP All Series ❣️", url="https://t.me/Kpautoreply_bot")]
+                [InlineKeyboardButton("💵 MSR VIP Series Member ဝင်ရန် 💵", url="https://t.me/MSR_VIP_Bot")]
             )
             buttons.append(
-                [InlineKeyboardButton("🙅ဝင်မရရင်ဒီကိုနှိပ်ပြီး Link Join ပါ🙅", url="https://t.me/Movie_Zone_KP/3")]
+                [InlineKeyboardButton("🔗 အပေါ်က Link တွေထဲဝင်မရရင်ဒီကိုနှိပ်ပြီး Join ပါ 🔗", url="https://t.me/msrlinkcollection/43")]
             )
             await message.reply_text(
-                f"<b>🙋🏼 ဟိုင်း  {message.from_user.mention} ရေ.... 🌝🌝\n\n{message.from_user.mention} ရှာတာ 👉🏻 {message.text}👈🏻  ကို မင်မင်ဆီမှရှိတာ ပြပေးထားတယ်နော်။♥️👌...\n\n<b>🙋🏼 Request by : {message.from_user.mention}</b>\n\n<b>⚜️ Join Main Channel \n⚜️ K-Series  👉🏻 @MKSVIPLINK \n⚜️ Movie      👉🏻 @KPMOVIELIST</b>\n</b>⚜️ Uploaded By   : Ko Paing Lay 🥰</a>",
+                f"<b>🙋🏻‍♂️ Hi  {message.from_user.mention} 😍\n\n{message.from_user.mention} ရှာနေတဲ့ရုပ်ရှင် 👉🏻 {message.text}👈🏻  ကို ကျနော် Bot ကရှာပေးထားတယ်နော်။ 💝\n\n<b>🙋🏻‍♂️ Request By : {message.from_user.mention}</b>\n\n<b>🏆 Join Our Main Channel Link \n📺 MSR Movie Link Collection  👉🏻 @MSRLINKCOLLECTION \n💵 MSR VIP Channel      👉🏻 @SERIESLIST_VIP</b>\n</b>🧑🏻‍💻 Uploaded By   : Kabar Kyaw</a>",
                 reply_markup=InlineKeyboardMarkup(buttons)
             )
             return
@@ -81,17 +81,17 @@ async def filter(client: Bot, message: Message):
             [InlineKeyboardButton(text="NEXT PAGE ⏩",callback_data=f"next_0_{keyword}")]
         )    
         buttons.append(
-            [InlineKeyboardButton(text=f"🔰 Pages 1/{data['total']} 🔰",callback_data="pages")]
+            [InlineKeyboardButton(text=f"🏅 Pages 1/{data['total']} 🏅",callback_data="pages")]
         )
         buttons.append(
-            [InlineKeyboardButton("❣️ VIP All Series ❣️", url="https://t.me/Kpautoreply_bot")]
+            [InlineKeyboardButton("💵 MSR VIP Series Member ဝင်ရန် 💵", url="https://t.me/MSR_VIP_Bot")]
         )
         buttons.append(
-            [InlineKeyboardButton("🙅ဝင်မရရင်ဒီကိုနှိပ်ပြီး Link Join ပါ🙅", url="https://t.me/Movie_Zone_KP/3")]
+            [InlineKeyboardButton("🔗 အပေါ်က Link တွေထဲဝင်မရရင်ဒီကိုနှိပ်ပြီး Join ပါ 🔗", url="https://t.me/msrlinkcollection/43")]
         )
 
         await message.reply_text(
-                f"<b>🙋🏼 ဟိုင်း  {message.from_user.mention} ရေ.... 🌝🌝\n\n{message.from_user.mention} ရှာတာ 👉🏻 {message.text}👈🏻  ကို မင်မင်ဆီမှရှိတာ ပြပေးထားတယ်နော်။♥️👌 .\n\n<b>🙋🏼 Request by : {message.from_user.mention}</b>\n\n<b>⚜️ Join Main Channel \n⚜️ K-Series  👉🏻 @MKSVIPLINK \n⚜️ Movie      👉🏻 @KPMOVIELIST</b>\n</b>⚜️ Uploaded By   : Ko Paing Lay 🥰</a>",
+                f"<b>🙋🏻‍♂️ Hi  {message.from_user.mention} 😍\n\n{message.from_user.mention} ရှာနေတဲ့ရုပ်ရှင် 👉🏻 {message.text}👈🏻  ကို ကျနော် Bot ကရှာပေးထားတယ်နော်။ 💝\n\n<b>🙋🏻‍♂️ Request By : {message.from_user.mention}</b>\n\n<b>🏆 Join Our Main Channel Link \n📺 MSR Movie Link Collection  👉🏻 @MSRLINKCOLLECTION \n💵 MSR VIP Channel  👉🏻 @SERIESLIST_VIP</b>\n</b>🧑🏻‍💻 Uploaded By   : Kabar Kyaw</a>",
                 reply_markup=InlineKeyboardMarkup(buttons)
             )    
 
@@ -119,13 +119,13 @@ async def cb_handler(client: Bot, query: CallbackQuery):
                     [InlineKeyboardButton("⏪ BACK PAGE", callback_data=f"back_{int(index)+1}_{keyword}")]
                 )
                 buttons.append(
-                    [InlineKeyboardButton(f"🔰 Pages {int(index)+2}/{data['total']} 🔰", callback_data="pages")]
+                    [InlineKeyboardButton(f"🏅 Pages {int(index)+2}/{data['total']} 🏅", callback_data="pages")]
                 )
                 buttons.append(
-                    [InlineKeyboardButton("❣️ VIP All Series ❣️", url="https://t.me/Kpautoreply_bot")]
+                    [InlineKeyboardButton("💵 MSR VIP Series Member ဝင်ရန် 💵", url="https://t.me/MSR_VIP_Bot")]
                 )
                 buttons.append(
-                    [InlineKeyboardButton("🙅ဝင်မရရင်ဒီကိုနှိပ်ပြီး Link Join ပါ🙅", url="https://t.me/Movie_Zone_KP/3")]
+                    [InlineKeyboardButton("🔗 အပေါ်က Link တွေထဲဝင်မရရင်ဒီကိုနှိပ်ပြီး Join ပါ 🔗", url="https://t.me/msrlinkcollection/43")]
                 )
 
                 await query.edit_message_reply_markup( 
@@ -139,13 +139,13 @@ async def cb_handler(client: Bot, query: CallbackQuery):
                     [InlineKeyboardButton("⏪ BACK PAGE", callback_data=f"back_{int(index)+1}_{keyword}"),InlineKeyboardButton("NEXT ⏩", callback_data=f"next_{int(index)+1}_{keyword}")]
                 )
                 buttons.append(
-                    [InlineKeyboardButton(f"🔰 Pages {int(index)+2}/{data['total']} 🔰", callback_data="pages")]
+                    [InlineKeyboardButton(f"🏅 Pages {int(index)+2}/{data['total']} 🏅", callback_data="pages")]
                 )
                 buttons.append(
-                    [InlineKeyboardButton("❣️ VIP All Series ❣️", url="https://t.me/Kpautoreply_bot")]
+                    [InlineKeyboardButton("💵 MSR VIP Series Member ဝင်ရန် 💵", url="https://t.me/MSR_VIP_Bot")]
                 )
                 buttons.append(
-                    [InlineKeyboardButton("🙅ဝင်မရရင်ဒီကိုနှိပ်ပြီး Link Join ပါ🙅", url="https://t.me/Movie_Zone_KP/3")]
+                    [InlineKeyboardButton("🔗 အပေါ်က Link တွေထဲဝင်မရရင်ဒီကိုနှိပ်ပြီး Join ပါ 🔗", url="https://t.me/msrlinkcollection/43")]
                 )
 
                 await query.edit_message_reply_markup( 
@@ -170,13 +170,13 @@ async def cb_handler(client: Bot, query: CallbackQuery):
                     [InlineKeyboardButton("NEXT PAGE ⏩", callback_data=f"next_{int(index)-1}_{keyword}")]
                 )
                 buttons.append(
-                    [InlineKeyboardButton(f"🔰 Pages {int(index)}/{data['total']} 🔰", callback_data="pages")]
+                    [InlineKeyboardButton(f"🏅 Pages {int(index)}/{data['total']} 🏅", callback_data="pages")]
                 )
                 buttons.append(
-                    [InlineKeyboardButton("❣️ VIP All Series ❣️", url="https://t.me/Kpautoreply_bot")]
+                    [InlineKeyboardButton("💵 MSR VIP Series Member ဝင်ရန် 💵", url="https://t.me/MSR_VIP_Bot")]
                 )
                 buttons.append(
-                    [InlineKeyboardButton("🙅ဝင်မရရင်ဒီကိုနှိပ်ပြီး Link Join ပါ🙅", url="https://t.me/Movie_Zone_KP/3")]
+                    [InlineKeyboardButton("🔗 အပေါ်က Link တွေထဲဝင်မရရင်ဒီကိုနှိပ်ပြီး Join ပါ 🔗", url="https://t.me/msrlinkcollection/43")]
                 )
   
                 await query.edit_message_reply_markup( 
@@ -190,13 +190,13 @@ async def cb_handler(client: Bot, query: CallbackQuery):
                     [InlineKeyboardButton("⏪ BACK PAGE", callback_data=f"back_{int(index)-1}_{keyword}"),InlineKeyboardButton("NEXT ⏩", callback_data=f"next_{int(index)-1}_{keyword}")]
                 )
                 buttons.append(
-                    [InlineKeyboardButton(f"🔰 Pages {int(index)}/{data['total']} 🔰", callback_data="pages")]
+                    [InlineKeyboardButton(f"🏅 Pages {int(index)}/{data['total']} 🏅", callback_data="pages")]
                 )
                 buttons.append(
-                    [InlineKeyboardButton("❣️ VIP All Series ❣️", url="https://t.me/Kpautoreply_bot")]
+                    [InlineKeyboardButton("💵 MSR VIP Series Member ဝင်ရန် 💵", url="https://t.me/MSR_VIP_Bot")]
                 )
                 buttons.append(
-                    [InlineKeyboardButton("🙅ဝင်မရရင်ဒီကိုနှိပ်ပြီး Link Join ပါ🙅", url="https://t.me/Movie_Zone_KP/3")]
+                    [InlineKeyboardButton("🔗 အပေါ်က Link တွေထဲဝင်မရရင်ဒီကိုနှိပ်ပြီး Join ပါ 🔗", url="https://t.me/msrlinkcollection/43")]
                 )
 
                 await query.edit_message_reply_markup( 
