@@ -214,7 +214,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
             keyboard = InlineKeyboardMarkup([
                 [InlineKeyboardButton("HELP", callback_data="help_data"),
                     InlineKeyboardButton("ABOUT", callback_data="about_data")],
-                [InlineKeyboardButton("❣️ JOIN MAIN CHANNEL ❣️ ", url="https://t.me/MKSVIPLINK")]
+                [InlineKeyboardButton("🏆 JOIN OUR MAIN CHANNEL 🏆 ", url="https://t.me/msrlinkcollection")]
             ])
 
             await query.message.edit_text(
@@ -229,7 +229,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
             keyboard = InlineKeyboardMarkup([
                 [InlineKeyboardButton("BACK", callback_data="start_data"),
                     InlineKeyboardButton("ABOUT ", callback_data="about_data")],
-                [InlineKeyboardButton("❣️ SUPPORT ❣️", url="https://t.me/MKS_RequestGroup")]
+                [InlineKeyboardButton("🔧 SUPPORT 🔧", url="https://t.me/+i75L1OqRZnRlZDY9")]
             ])
 
             await query.message.edit_text(
@@ -244,7 +244,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
             keyboard = InlineKeyboardMarkup([
                 [InlineKeyboardButton("BACK", callback_data="help_data"),
                     InlineKeyboardButton("START", callback_data="start_data")],
-                [InlineKeyboardButton(" ❣️ SOURCE CODE ❣️", url="https://t.me/Painglay15")]
+                [InlineKeyboardButton(" 🧾 SOURCE CODE 🧾", url="https://t.me/msr_kabar")]
             ])
 
             await query.message.edit_text(
@@ -263,7 +263,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
             await query.message.delete()
 
     else:
-        await query.answer("🙄ဟင်းဟင်း သူများရိုက်ထားတာလေ\n\n😎  နှိပ် ချင်ရင် ဂရုထဲ ကွကိုရိုက်ပါ 😎!!\n\nUploaded By :Ko Paing ❣️",show_alert=True)
+        await query.answer("မိတ်ဆွေ သူများရိုက်ထားတာကြီးလေ\n\n🙄  နှိပ်ချင်ရင် Groupထဲ ကိုယ့်ဟာကိုယ်ကိုရိုက်ရှာပါ 🥳!!\n\nUploaded By :Kabar Kyaw 🧑🏻‍💻 ",show_alert=True)
 
 
 def split_list(l, n):
