@@ -22,10 +22,10 @@ async def start(client, message):
                     ],
                     [
                         InlineKeyboardButton(
-                            "⭕️ JOIN OUR CHANNEL ⭕️", url="https://t.me/MKSVIPLINK"),
+                            "⭕️ JOIN OUR CHANNEL ⭕️", url="https://t.me/msrlinkcollection"),
                     ],
                     [
-                        InlineKeyboardButton("⭕️ Group ⭕️ ", url="https://t.me/MKS_RequestGroup")
+                        InlineKeyboardButton("⭕️ Group ⭕️ ", url="https://t.me/+i75L1OqRZnRlZDY9")
                     ]
                 ]
             ),
@@ -48,10 +48,10 @@ async def help(client, message):
                     ],
                     [
                         InlineKeyboardButton(
-                            "⭕️ JOIN OUR CHANNEL ⭕️", url="https://t.me/MKSVIPLINK"),
+                            "⭕️ JOIN OUR CHANNEL ⭕️", url="https://t.me/msrlinkcollection"),
                     ],
                     [
-                        InlineKeyboardButton("⭕️ Group ⭕️ ", url="https://t.me/MKS_RequestGroup")
+                        InlineKeyboardButton("⭕️ Group ⭕️ ", url="https://t.me/+i75L1OqRZnRlZDY9")
                     ]
                 ]
             ),
@@ -74,12 +74,12 @@ async def about(client, message):
                     ],
                     [
                         InlineKeyboardButton(
-                            "⭕️ JOIN OUR CHANNEL ⭕️", url="https://t.me/MKSVIPLINK"),
-                        InlineKeyboardButton("⭕️ Group ⭕️ ", url="https://t.me/MKS_RequestGroup"),
+                            "⭕️ JOIN OUR CHANNEL ⭕️", url="https://t.me/msrlinkcollection"),
+                        InlineKeyboardButton("⭕️ Group ⭕️ ", url="https://t.me/+i75L1OqRZnRlZDY9"),
                     ],
                     [
                         InlineKeyboardButton(
-                            "SOURCE CODE", url="https://t.me/kopaing15")
+                            "SOURCE CODE", url="https://t.me/msr_kabar")
                     ]
                 ]
             ),
