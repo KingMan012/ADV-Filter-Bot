@@ -9,7 +9,7 @@ class script(object):
 
 Delivery နဲ့ ပါဆယ်ပိုပေးလိုက်မယ်။ Ok လား? 😂😂
 
-@KOPAING15 <i>-Contact Me</i></b>"""
+@MSR_KABAR <i>-Contact Me</i></b>"""
 
 
     HELP_MSG = """<b>How to use the bot??</b>
@@ -51,17 +51,17 @@ No need add each filter again!
 Bot will automatically search for your files and give links to that!
 
 
-<b>© @KOPAING15</b>"""
+<b>© @MSR_KABAR</b>"""
 
 
-    ABOUT_MSG = """⭕️<b>My Name : KO PAing </b>
+    ABOUT_MSG = """⭕️<b>My Name : Kabar Kyaw </b>
     
-⭕️<b>Creater :</b> @KOPAING15
+⭕️<b>Creater :</b> @MSR_KABAR
 
 ⭕️<b>Language :</b> <code>Python3</code>
 
 ⭕️<b>Library :</b> <a href='https://docs.pyrogram.org/'>Pyrogram 1.0.7</a> 
 
-⭕️<b>Tutorial Video :</b> <a href='https://t.me/mksmainchannel'>Video Link</a> 
+⭕️<b>Tutorial Video :</b> <a href='https://t.me/msrlinkcollection'>Video Link</a> 
 
 """
