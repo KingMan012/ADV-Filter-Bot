@@ -69,7 +69,7 @@ async def filter(client: Bot, message: Message):
                 [InlineKeyboardButton("🔗 Linkတွေထဲဝင်မရရင်ဒီကိုနှိပ်ပြီးJoinပါ 🔗", url="https://t.me/msrlinkcollection/43")]
             )
             await message.reply_text(
-                f"<b>Hi  {message.from_user.mention} 😍\n\n{message.from_user.mention} ရှာနေတဲ့ရုပ်ရှင် 👉🏻 {message.text}👈🏻  ကို ကျနော် Bot ကရှာပေးထားတယ်နော်။ 💝\n\n<b>🙋🏻‍♂️ တောင်းဆိုသူ  : {message.from_user.mention}</b>\n\n<b>🏆 Join Our Main Channel Link \n📺 MSR Movie Link Collection  👉🏻 @MSRLINKCOLLECTION 👈🏻 \n💵 MSR VIP Channel  👉🏻 @SERIESLIST_VIP 👈🏻</b>\n\n</b>🧑🏻‍💻 Uploaded By  : MSR Channel Team</a>",
+                f"<b>Hi  {message.from_user.mention} 😍\n\n{message.from_user.mention} ရှာနေတဲ့ရုပ်ရှင် 👉🏻 {message.text}👈🏻  ကို ကျနော် Bot ကရှာပေးထားတယ်နော်။ 💝\n\n<b>🙋🏻‍♂️ တောင်းဆိုသူ  : {message.from_user.mention}</b>\n\n<b>🏆 Join Our Main Channel Link \n📺 MSR Movie Link Collection  👉🏻 @MSRLINKCOLLECTION 👈🏻 \n💵 MSR VIP Channel  👉🏻 @SERIESLIST_VIP 👈🏻</b>\n</b>🧑🏻‍💻 Uploaded By  : MSR Channel Team</a>",
                 reply_markup=InlineKeyboardMarkup(buttons)
             )
             return
@@ -91,7 +91,7 @@ async def filter(client: Bot, message: Message):
         )
 
         await message.reply_text(
-                f"<b>Hi  {message.from_user.mention} 😍\n\n{message.from_user.mention} ရှာနေတဲ့ရုပ်ရှင် 👉🏻 {message.text}👈🏻  ကို ကျနော် Bot ကရှာပေးထားတယ်နော်။ 💝\n\n<b>🙋🏻‍♂️ တောင်းဆိုသူ  : {message.from_user.mention}</b>\n\n<b>🏆 Join Our Main Channel Link \n📺 MSR Movie Link Collection  👉🏻 @MSRLINKCOLLECTION 👈🏻 \n💵 MSR VIP Channel  👉🏻 @SERIESLIST_VIP 👈🏻</b>\n\n</b>🧑🏻‍💻 Uploaded By  : MSR Channel Team</a>",
+                f"<b>Hi  {message.from_user.mention} 😍\n\n{message.from_user.mention} ရှာနေတဲ့ရုပ်ရှင် 👉🏻 {message.text}👈🏻  ကို ကျနော် Bot ကရှာပေးထားတယ်နော်။ 💝\n\n<b>🙋🏻‍♂️ တောင်းဆိုသူ  : {message.from_user.mention}</b>\n\n<b>🏆 Join Our Main Channel Link \n📺 MSR Movie Link Collection  👉🏻 @MSRLINKCOLLECTION 👈🏻 \n💵 MSR VIP Channel  👉🏻 @SERIESLIST_VIP 👈🏻</b>\n</b>🧑🏻‍💻 Uploaded By  : MSR Channel Team</a>",
                 reply_markup=InlineKeyboardMarkup(buttons)
             )    
 
