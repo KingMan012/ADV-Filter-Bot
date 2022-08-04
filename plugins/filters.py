@@ -66,10 +66,10 @@ async def filter(client: Bot, message: Message):
                 [InlineKeyboardButton("💵 MSR VIP Series Member ဝင်ရန် 💵", url="https://t.me/MSR_VIP_Bot")]
             )
             buttons.append(
-                [InlineKeyboardButton("🔗 အပေါ်က Link တွေထဲဝင်မရရင်ဒီကိုနှိပ်ပြီး Join ပါ 🔗", url="https://t.me/msrlinkcollection/43")]
+                [InlineKeyboardButton("🔗 Linkတွေထဲဝင်မရရင်ဒီကိုနှိပ်ပြီးJoinပါ 🔗", url="https://t.me/msrlinkcollection/43")]
             )
             await message.reply_text(
-                f"<b>🙋🏻‍♂️ Hi  {message.from_user.mention} 😍\n\n{message.from_user.mention} ရှာနေတဲ့ရုပ်ရှင် 👉🏻 {message.text}👈🏻  ကို ကျနော် Bot ကရှာပေးထားတယ်နော်။ 💝\n\n<b>🙋🏻‍♂️ တောင်းဆိုသူ  : {message.from_user.mention}</b>\n\n<b>🏆 Join Our Main Channel Link \n📺 MSR Movie Link Collection  👉🏻 @MSRLINKCOLLECTION 👈🏻 \n💵 MSR VIP Channel  👉🏻 @SERIESLIST_VIP 👈🏻</b>\n</b>🧑🏻‍💻 Uploaded By  : MSR Channel Team</a>",
+                f"<b>Hi  {message.from_user.mention} 😍\n\n{message.from_user.mention} ရှာနေတဲ့ရုပ်ရှင် 👉🏻 {message.text}👈🏻  ကို ကျနော် Bot ကရှာပေးထားတယ်နော်။ 💝\n\n<b>🙋🏻‍♂️ တောင်းဆိုသူ  : {message.from_user.mention}</b>\n\n<b>🏆 Join Our Main Channel Link \n📺 MSR Movie Link Collection  👉🏻 @MSRLINKCOLLECTION 👈🏻 \n💵 MSR VIP Channel  👉🏻 @SERIESLIST_VIP 👈🏻</b>\n\n</b>🧑🏻‍💻 Uploaded By  : MSR Channel Team</a>",
                 reply_markup=InlineKeyboardMarkup(buttons)
             )
             return
@@ -87,11 +87,11 @@ async def filter(client: Bot, message: Message):
             [InlineKeyboardButton("💵 MSR VIP Series Member ဝင်ရန် 💵", url="https://t.me/MSR_VIP_Bot")]
         )
         buttons.append(
-            [InlineKeyboardButton("🔗 အပေါ်က Link တွေထဲဝင်မရရင်ဒီကိုနှိပ်ပြီး Join ပါ 🔗", url="https://t.me/msrlinkcollection/43")]
+            [InlineKeyboardButton("🔗 Linkတွေထဲဝင်မရရင်ဒီကိုနှိပ်ပြီးJoinပါ 🔗", url="https://t.me/msrlinkcollection/43")]
         )
 
         await message.reply_text(
-                f"<b>🙋🏻‍♂️ Hi  {message.from_user.mention} 😍\n\n{message.from_user.mention} ရှာနေတဲ့ရုပ်ရှင် 👉🏻 {message.text}👈🏻  ကို ကျနော် Bot ကရှာပေးထားတယ်နော်။ 💝\n\n<b>🙋🏻‍♂️ တောင်းဆိုသူ  : {message.from_user.mention}</b>\n\n<b>🏆 Join Our Main Channel Link \n📺 MSR Movie Link Collection  👉🏻 @MSRLINKCOLLECTION 👈🏻 \n💵 MSR VIP Channel  👉🏻 @SERIESLIST_VIP 👈🏻</b>\n</b>🧑🏻‍💻 Uploaded By  : MSR Channel Team</a>",
+                f"<b>Hi  {message.from_user.mention} 😍\n\n{message.from_user.mention} ရှာနေတဲ့ရုပ်ရှင် 👉🏻 {message.text}👈🏻  ကို ကျနော် Bot ကရှာပေးထားတယ်နော်။ 💝\n\n<b>🙋🏻‍♂️ တောင်းဆိုသူ  : {message.from_user.mention}</b>\n\n<b>🏆 Join Our Main Channel Link \n📺 MSR Movie Link Collection  👉🏻 @MSRLINKCOLLECTION 👈🏻 \n💵 MSR VIP Channel  👉🏻 @SERIESLIST_VIP 👈🏻</b>\n\n</b>🧑🏻‍💻 Uploaded By  : MSR Channel Team</a>",
                 reply_markup=InlineKeyboardMarkup(buttons)
             )    
 
@@ -125,7 +125,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
                     [InlineKeyboardButton("💵 MSR VIP Series Member ဝင်ရန် 💵", url="https://t.me/MSR_VIP_Bot")]
                 )
                 buttons.append(
-                    [InlineKeyboardButton("🔗 အပေါ်က Link တွေထဲဝင်မရရင်ဒီကိုနှိပ်ပြီး Join ပါ 🔗", url="https://t.me/msrlinkcollection/43")]
+                    [InlineKeyboardButton("🔗 Linkတွေထဲဝင်မရရင်ဒီကိုနှိပ်ပြီးJoinပါ 🔗", url="https://t.me/msrlinkcollection/43")]
                 )
 
                 await query.edit_message_reply_markup( 
@@ -145,7 +145,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
                     [InlineKeyboardButton("💵 MSR VIP Series Member ဝင်ရန် 💵", url="https://t.me/MSR_VIP_Bot")]
                 )
                 buttons.append(
-                    [InlineKeyboardButton("🔗 အပေါ်က Link တွေထဲဝင်မရရင်ဒီကိုနှိပ်ပြီး Join ပါ 🔗", url="https://t.me/msrlinkcollection/43")]
+                    [InlineKeyboardButton("🔗 Linkတွေထဲဝင်မရရင်ဒီကိုနှိပ်ပြီးJoinပါ 🔗", url="https://t.me/msrlinkcollection/43")]
                 )
 
                 await query.edit_message_reply_markup( 
@@ -176,7 +176,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
                     [InlineKeyboardButton("💵 MSR VIP Series Member ဝင်ရန် 💵", url="https://t.me/MSR_VIP_Bot")]
                 )
                 buttons.append(
-                    [InlineKeyboardButton("🔗 အပေါ်က Link တွေထဲဝင်မရရင်ဒီကိုနှိပ်ပြီး Join ပါ 🔗", url="https://t.me/msrlinkcollection/43")]
+                    [InlineKeyboardButton("🔗 Linkတွေထဲဝင်မရရင်ဒီကိုနှိပ်ပြီးJoinပါ 🔗", url="https://t.me/msrlinkcollection/43")]
                 )
   
                 await query.edit_message_reply_markup( 
@@ -196,7 +196,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
                     [InlineKeyboardButton("💵 MSR VIP Series Member ဝင်ရန် 💵", url="https://t.me/MSR_VIP_Bot")]
                 )
                 buttons.append(
-                    [InlineKeyboardButton("🔗 အပေါ်က Link တွေထဲဝင်မရရင်ဒီကိုနှိပ်ပြီး Join ပါ 🔗", url="https://t.me/msrlinkcollection/43")]
+                    [InlineKeyboardButton("🔗 Linkတွေထဲဝင်မရရင်ဒီကိုနှိပ်ပြီးJoinပါ 🔗", url="https://t.me/msrlinkcollection/43")]
                 )
 
                 await query.edit_message_reply_markup( 
@@ -263,7 +263,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
             await query.message.delete()
 
     else:
-        await query.answer("မိတ်ဆွေ သူများရိုက်ထားတာကြီးလေ\n\n🙄  နှိပ်ချင်ရင် Groupထဲ ကိုယ့်ဟာကိုယ်ကိုရိုက်ရှာပါ 🥳!!\n\nUploaded By :Kabar Kyaw 🧑🏻‍💻 ",show_alert=True)
+        await query.answer("မိတ်ဆွေ သူများရိုက်ထားတာကြီးလေ\n\n🙄  နှိပ်ချင်ရင် Groupထဲ ကိုယ့်ဟာကိုယ်ကိုရိုက်ရှာပါ 🥳\n\n🧑🏻‍💻 Uploaded By :Kabar Kyaw ",show_alert=True)
 
 
 def split_list(l, n):
